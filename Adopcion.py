@@ -1,0 +1,27 @@
+("Adopcion")
+print("adopcion de un gato")
+print("tengo lo necesario para adoptar a un gato")
+adoptar = input().upper()
+if adoptar == "SI":
+    print("cosas necesarias")
+    print("Cama, comida, juguetes, arenero, tazon de comida")
+else:
+    print("conseguir dinero")
+    print("Comprar cama, comida, juguetes, arenero, tazon de comida")
+    comprar = input()
+print("De donde adopto al gato")
+lugarAdopcion = input().upper()
+if lugarAdopcion == "refugio":
+    print("ir al refugio")
+    refugio = input()
+    print("encontrar un gato")
+    encontrarGato = input()
+    print("firmar papeles")
+else:
+    print("adopcion a persona comun")
+    persona = input()
+    print("Hablar con la persona")
+    hablar = input()
+    print("la persona me da el gato en adopcion")
+    adopcion = input()
+    print("firmar papeles")
